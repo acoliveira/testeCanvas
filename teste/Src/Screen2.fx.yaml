@@ -42,20 +42,20 @@
                 headerProduto As button:
                     DisplayMode: =DisplayMode.View
                     Text: ="Produto"
-                    Width: =326
+                    Width: =356
                     ZIndex: =1
 
                 headerFormaContato As button:
                     DisplayMode: =DisplayMode.View
                     Text: ="Forma Contato"
-                    Width: =208
+                    Width: =228
                     X: =headerProduto.X + headerProduto.Width
                     ZIndex: =2
 
                 headerResultadoContato As button:
                     DisplayMode: =DisplayMode.View
                     Text: ="Resultado do Contato"
-                    Width: =240
+                    Width: =267
                     X: =headerFormaContato.X + headerFormaContato.Width
                     ZIndex: =3
 
@@ -64,13 +64,86 @@
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
-                TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+                TemplatePadding: =1
+                TemplateSize: =40
                 ZIndex: =2
 
-                drpProduto As dropdown:
-                    Items: =colDadosGrid.Produto
-                    OnSelect: =Select(Parent)
+                itemProduto As combobox:
+                    BorderColor: =
+                    DefaultSelectedItems: =
+                    DisplayFields: =["Nome"]
+                    DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
+                    Items: =produtos
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Nome"]
+                    SearchItems: =[]
+                    SelectMultiple: =false
+                    Tooltip: =
                     Width: =headerProduto.Width
                     X: =headerProduto.X
                     ZIndex: =1
+
+                itemFormaContato As combobox:
+                    BorderColor: =
+                    DefaultSelectedItems: =
+                    DisplayFields: =["Nome"]
+                    DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
+                    Items: =formaContato
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Nome"]
+                    SearchItems: =[]
+                    SelectMultiple: =false
+                    Tooltip: =
+                    Width: =headerFormaContato.Width
+                    X: =headerFormaContato.X
+                    ZIndex: =2
+
+                DataCardValue4_1 As combobox:
+                    BorderColor: =
+                    DefaultSelectedItems: =
+                    DisplayFields: =["Nome"]
+                    DisplayMode: =Parent.DisplayMode
+                    IsSearchable: =false
+                    Items: =resultadoContato
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    SearchFields: =["Nome"]
+                    SearchItems: =[]
+                    SelectMultiple: =false
+                    Tooltip: =
+                    Width: =headerResultadoContato.Width
+                    X: =headerResultadoContato.X
+                    ZIndex: =3
+
+    Button1 As button:
+        OnSelect: |-
+            =ClearCollect(produtos, 
+                {Nome: "Produto 1", Id: "1"},
+                {Nome: "Produto 2", Id: "2"},
+                {Nome: "Produto 3", Id: "3"},
+                {Nome: "Produto 4", Id: "4"},
+                {Nome: "Produto 5", Id: "5"},
+                {Nome: "Produto 6", Id: "6"},
+                {Nome: "Produto 7", Id: "7"},
+                {Nome: "Produto 8", Id: "8"},
+                {Nome: "Produto 9", Id: "9"},
+                {Nome: "Produto 10", Id: "10"}
+            );
+            ClearCollect(formaContato,
+                {Nome: "Email", Id: "1"},
+                {Nome: "Telefone", Id: "2"},
+                {Nome: "WhatsApp", Id: "3"},
+                {Nome: "Presencial", Id: "4"}
+            );
+            ClearCollect(resultadoContato,
+                {Nome: "Aceitou", Id: "1"},
+                {Nome: "Recusou", Id: "2"},
+                {Nome: "Reagendou", Id: "3"}
+            );
+            ClearCollect(colDadosGrid, {}, {}, {}, {}, {}, {});
+        Text: ="Button"
+        X: =20
+        Y: =20
+        ZIndex: =2
 

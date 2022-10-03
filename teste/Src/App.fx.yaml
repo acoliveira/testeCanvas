@@ -1,8 +1,4 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |-
-        =ClearCollect(colDadosGrid, 'Registro de Contatoes');
-        ClearCollect(colDados, {
-            "Produto": {}
-        });
+    OnStart: =
 

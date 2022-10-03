@@ -75,7 +75,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "ContainsThirdPartyPcfControls": false,
@@ -107,6 +107,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen2"
+    "Screen2",
+    "Screen1"
   ]
 }

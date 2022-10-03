@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "vai_registrodecontato",
+    "MaxGetRowsCount": 500,
     "Name": "Registro de Contatoes",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
