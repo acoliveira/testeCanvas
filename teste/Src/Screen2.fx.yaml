@@ -75,6 +75,7 @@
                     DisplayMode: =Parent.DisplayMode
                     IsSearchable: =false
                     Items: =produtos
+                    OnChange: =Collect(produtosSelecionados, Self.SelectedItems)
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     SearchFields: =["Nome"]
                     SearchItems: =[]
@@ -142,6 +143,7 @@
                 {Nome: "Reagendou", Id: "3"}
             );
             ClearCollect(colDadosGrid, {}, {}, {}, {}, {}, {});
+            ClearCollect(produtosSelecionados, Blank());
         Text: ="Button"
         X: =20
         Y: =20
