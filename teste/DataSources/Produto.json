@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "vai_produtos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "vai_produto",
+    "Name": "Produto",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "vai_codigoc1": "Código C1",
+      "vai_codigogera": "Código GERA",
+      "vai_name": "Name",
+      "vai_produto_AsyncOperations": "System Jobs",
+      "vai_produto_BulkDeleteFailures": "Bulk Delete Failures",
+      "vai_produto_DuplicateBaseRecord": "Duplicate Records (vai_produto_DuplicateBaseRecord)",
+      "vai_produto_DuplicateMatchingRecord": "Duplicate Records (vai_produto_DuplicateMatchingRecord)",
+      "vai_produto_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "vai_produto_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "vai_produto_ProcessSession": "Process Sessions",
+      "vai_produto_SyncErrors": "Sync Errors",
+      "vai_produtoid": "Produto",
+      "vai_vai_produtovscargo_Produtoid_vai_produto": "Produtos vs Cargos",
+      "vai_vai_registrodecontato_Produto_vai_produto": "Registro de Contatoes",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Produto",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Produto (Views)",
+    "Name": "_vai_produto_views",
+    "RelatedEntityName": "Produto",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "21323d08-78a4-40e6-a515-5498b7f9f146": "Active Produto",
+      "28de3543-291e-40ba-8072-6b8854ef64ae": "Produto Lookup View",
+      "295a9b43-1356-4094-8d5b-3942d8ed93f9": "Produto Associated View",
+      "6a3d33c0-6460-4d01-a419-6c336948a99c": "Inactive Produto",
+      "ae54ca7c-0bdb-4665-afe8-e508eacff380": "Produto Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Produto)",
+    "Name": "vai_produto_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Produto"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Produto",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Produto)",
+    "Name": "vai_produto_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Produto"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Produto",
+    "Type": "OptionSetInfo"
+  }
+]

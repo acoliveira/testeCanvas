@@ -1,0 +1,142 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "vai_registrodecontatos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "vai_registrodecontato",
+    "Name": "Registro de Contatoes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "vai_formadecontato": "Forma de Contato",
+      "vai_name": "Name",
+      "vai_Produto": "Produto",
+      "vai_registrodecontato_AsyncOperations": "System Jobs",
+      "vai_registrodecontato_BulkDeleteFailures": "Bulk Delete Failures",
+      "vai_registrodecontato_DuplicateBaseRecord": "Duplicate Records (vai_registrodecontato_DuplicateBaseRecord)",
+      "vai_registrodecontato_DuplicateMatchingRecord": "Duplicate Records (vai_registrodecontato_DuplicateMatchingRecord)",
+      "vai_registrodecontato_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "vai_registrodecontato_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "vai_registrodecontato_ProcessSession": "Process Sessions",
+      "vai_registrodecontato_SyncErrors": "Sync Errors",
+      "vai_registrodecontatoid": "Registro de Contato",
+      "vai_resultadodocontato": "Resultado do Contato",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Registro de Contatoes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Registro de Contatoes (Views)",
+    "Name": "_vai_registrodecontato_views",
+    "RelatedEntityName": "Registro de Contatoes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "6997bb68-a0c8-42b1-9a0c-c0db9d3f39be": "Active Registro de Contatoes",
+      "771c535b-1d88-4e30-871c-87481e2abb31": "Registro de Contato Associated View",
+      "7bb8b979-d380-4fd5-bd4e-447cbea67528": "Registro de Contato Advanced Find View",
+      "7d3edc86-d728-43de-a4c2-dd4a477f941d": "Registro de Contato Lookup View",
+      "b5d6c5f0-1533-4038-b0a6-b982b40c1c00": "Inactive Registro de Contatoes"
+    }
+  },
+  {
+    "DisplayName": "Status (Registro de Contatoes)",
+    "Name": "vai_registrodecontato_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Registro de Contatoes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Registro de Contatoes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Registro de Contatoes)",
+    "Name": "vai_registrodecontato_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Registro de Contatoes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Registro de Contatoes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Forma de Contato (Registro de Contatoes)",
+    "Name": "vai_registrodecontato_vai_formadecontato",
+    "OptionSetInfoNameMapping": {
+      "947340000": "Email",
+      "947340001": "Telefone",
+      "947340002": "Whatsapp",
+      "947340003": "Presencial"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "vai_formadecontato",
+        "OptionSetReferenceEntityName": "Registro de Contatoes"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "vai_formadecontato",
+    "RelatedEntityName": "Registro de Contatoes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Resultado do Contato (Registro de Contatoes)",
+    "Name": "vai_registrodecontato_vai_resultadodocontato",
+    "OptionSetInfoNameMapping": {
+      "947340000": "Aceitou",
+      "947340001": "Recusou",
+      "947340002": "Reagendou"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "vai_resultadodocontato",
+        "OptionSetReferenceEntityName": "Registro de Contatoes"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "vai_resultadodocontato",
+    "RelatedEntityName": "Registro de Contatoes",
+    "Type": "OptionSetInfo"
+  }
+]

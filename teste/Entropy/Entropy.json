@@ -1,0 +1,80 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "drpProduto": 19,
+    "Gallery1": 15,
+    "galleryTemplate1": 16,
+    "HeaderContainer1": 6,
+    "headerFormaContato": 13,
+    "headerGrid": 11,
+    "headerProduto": 12,
+    "headerResultadoContato": 14,
+    "Label1": 9,
+    "MainSectionContainer1": 7,
+    "Screen2": 4,
+    "ScreenContainer1": 5
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/03/2022 23:03:57",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "colDadosGrid": 12,
+    "CustomGallerySample": 9,
+    "DropDownSample": 10,
+    "Produto": 11,
+    "Produto\\default.cds_vai_produto_views": 7,
+    "Produto\\vai_produto_statecode": 4,
+    "Produto\\vai_produto_statuscode": 5,
+    "Registro de Contatoes": 8,
+    "Registro de Contatoes\\default.cds_vai_registrodecontato_views": 6,
+    "Registro de Contatoes\\vai_registrodecontato_statecode": 2,
+    "Registro de Contatoes\\vai_registrodecontato_statuscode": 3,
+    "Registro de Contatoes\\vai_registrodecontato_vai_formadecontato": 0,
+    "Registro de Contatoes\\vai_registrodecontato_vai_resultadodocontato": 1
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "dropdown": 4,
+    "gallery": 3,
+    "groupContainer": 0,
+    "label": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "drpProduto": 10,
+    "Gallery1": 8,
+    "galleryTemplate1": 9,
+    "HeaderContainer1": 1,
+    "headerFormaContato": 6,
+    "headerGrid": 4,
+    "headerProduto": 5,
+    "headerResultadoContato": 7,
+    "Label1": 2,
+    "MainSectionContainer1": 3,
+    "Screen2": 0,
+    "ScreenContainer1": 0
+  },
+  "ResourcesJsonIndices": {},
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.020999,
+    "ControlCount": {
+      "button": 2
+    },
+    "ErrorCount": 9
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}

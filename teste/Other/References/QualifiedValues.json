@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_vai_registrodecontato_forms",
+      "Namespace": "Registro de Contatoes (Forms)",
+      "Values": {
+        "Information": "4901421a-8d01-4bef-91ae-e3dcadb4ffc0"
+      }
+    },
+    {
+      "Kind": "default.cds_vai_produto_forms",
+      "Namespace": "Produto (Forms)",
+      "Values": {
+        "Information": "4de7c4a9-0c6c-4467-b017-a19ec3c6009a"
+      }
+    }
+  ]
+}
