@@ -90,13 +90,13 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "e2ef6115-da5c-4a85-92be-2c33535817b0",
-    "Id": "e2ef6115-da5c-4a85-92be-2c33535817b0",
+    "Id": "8aa0b4f3-d5ab-4841-87cc-d374d32f4172",
     "InstrumentationKey": "",
-    "Name": "Registro de Contato",
+    "Name": "Registro+de+Contato+-+copy.msapp",
     "OriginatingVersion": "1.326"
   },
   "PublishInfo": {
-    "AppName": "Registro de Contato",
+    "AppName": "Registro de Contato - copy",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
